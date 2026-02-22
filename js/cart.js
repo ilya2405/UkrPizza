@@ -10,7 +10,7 @@ function addtocart (id,name,price,img){
             name,
             price,
             img,
-            qty:1
+            qty: 1
         })
     }
 
@@ -23,7 +23,7 @@ function savecart (){
 }
 
 function updatecartcount(){
-    let count=cart.reduce((sum,item) => sum+item.qty,0)
+    let count=cart.reduce((sum,item) => sum+item.qty, 0)
     let el=document.querySelector(".cart-count")
     if(el) el.textContent=count
 }

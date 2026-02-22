@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    border-radius: 40px;
+    background-color: blueviolet;
+}
+
+li{
+    color: aliceblue;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.f-between{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-40{
+    padding: 0 40px;
+}
+
+.p-10{
+    padding: 0 10px;
+}
