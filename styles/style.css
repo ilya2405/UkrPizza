@@ -33,3 +33,46 @@ li{
 .p-10{
     padding: 0 10px;
 }
+
+header{
+    background-color: palegoldenrod;
+}
+
+body{
+    background-color: powderblue;
+}
+
+
+
+.product-img{
+    width: 120px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+ }
+
+ .product-title{
+    margin-left: 25px;
+ }
+
+ .product-price{
+    margin-left: 48px;
+    background-color: aqua;
+    width: 40px;
+    border-radius: 10px;
+ }
+
+ .buy-btn{
+    margin-left: 40px;
+ }
+
+ .product-titl{
+    margin-left: 13px;
+ }
+
+ .product-descr{
+    margin-left: 3px;
+    border-radius: 25px;
+    background-color: blueviolet;
+ }
