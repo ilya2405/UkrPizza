@@ -9,12 +9,15 @@
 </head>
 <body>
     <header class="d-flex f-between p-40">
+
         <a href="/" class="title nav-link d-flex f-center"></a>
         <div class="title">
             <img class="logo" src="" alt="">
-            <h1 class="title-text">UkrPizza</h1>
+            <h1 class="title-text">🍕UkrPizza</h1>
         </div>
+       <a href="index.html">← Назад</a>
 
+       
         <nav class="nav p-10">
             <ul class="nav-bar d-flex f-between p-10">
                 <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
@@ -27,6 +30,17 @@
     </header>
     <main>
         <div class="cart-items"></div>
+        
+        <h2 class="total"></h2>
+
+        <button onclick="openCheckout()">Оформити замовлення</button>
+
+        <div class="checkout" style="display:none; margin-top:20px;">
+    <h3>Оформлення</h3>
+    <input placeholder="Ім'я"><br><br>
+    <input placeholder="Телефон"><br><br>
+    <button onclick="confirmOrder()">Підтвердити</button>
+</div>
     </main>
     <footer></footer>
     <script src="js/cart.js"></script>

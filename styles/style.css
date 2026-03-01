@@ -5,7 +5,7 @@
 
 ul{
     border-radius: 40px;
-    background-color: blueviolet;
+    background-color: #2E7D32;
 }
 
 li{
@@ -35,11 +35,11 @@ li{
 }
 
 header{
-    background-color: palegoldenrod;
+    background-color: #C62828;
 }
 
 body{
-    background-color: powderblue;
+    background-color: #FAF7F2;
 }
 
 
@@ -58,13 +58,15 @@ body{
 
  .product-price{
     margin-left: 48px;
-    background-color: aqua;
+    background-color: #D32F2F;
     width: 40px;
     border-radius: 10px;
  }
 
  .buy-btn{
     margin-left: 40px;
+    background-color: #FBC02D;
+    border-radius: 20px;
  }
 
  .product-titl{
@@ -74,5 +76,25 @@ body{
  .product-descr{
     margin-left: 3px;
     border-radius: 25px;
-    background-color: blueviolet;
+    background-color:#98FF98;
  }
+
+ .history{
+    background-color: #98FF98;
+    border-radius: 20px;
+ }
+
+ h2{
+    background-color:rgb(238, 64, 64);
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ h3{
+    background-color:rgb(238, 64, 64);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    size: 40px;
+ }
+ 
