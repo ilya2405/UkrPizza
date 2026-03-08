@@ -1,15 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+
+    
 }
 
 ul{
     border-radius: 40px;
-    background-color: #2E7D32;
+    background-color: #06D6A0;
 }
 
 li{
-    color: aliceblue;
+    color: #FFF2CC;
 }
 
 .d-flex{
@@ -26,6 +28,11 @@ li{
     justify-content: space-between;
 }
 
+.game-card *{
+    box-shadow:  /* права тінь */
+    -5px 0 0px rgba(0,0,0); /* ліва тінь */
+}
+
 .p-40{
     padding: 0 40px;
 }
@@ -35,11 +42,14 @@ li{
 }
 
 header{
-    background-color: #C62828;
+    background-color: #E63946;
+    color: #FFF2CC;
 }
 
 body{
-    background-color: #FAF7F2;
+    background-color: #FFF2CC;
+    font-family: 'Verdana', sans-serif;
+    color: #333333;
 }
 
 
@@ -57,16 +67,25 @@ body{
  }
 
  .product-price{
-    margin-left: 48px;
-    background-color: #D32F2F;
-    width: 40px;
+    margin-left: 53px;
+    background-color: #FFD166;
+    width: 100px;
     border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+
  }
 
  .buy-btn{
     margin-left: 40px;
-    background-color: #FBC02D;
+    background-color: #FFD166; /* кнопка жовта */
     border-radius: 20px;
+    box-shadow: 4px 0 8px rgba(0,0,0,0.4),
+    -4px 0 8px rgba(0,0,0,0.4);
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    size: 40px;
  }
 
  .product-titl{
@@ -76,22 +95,26 @@ body{
  .product-descr{
     margin-left: 3px;
     border-radius: 25px;
-    background-color:#98FF98;
+    background-color:#06D6A0;
+    margin-top: 20px;
+    padding-left: 15px;
  }
 
  .history{
-    background-color: #98FF98;
+    background-color: #06D6A0;
     border-radius: 20px;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.3),
+                -3px 0 10px rgba(0,0,0,0.3);
  }
 
  h2{
-    background-color:rgb(238, 64, 64);
+    background-color: #E63946;
     border-radius: 20px;
     text-align: center;
  }
 
  h3{
-    background-color:rgb(238, 64, 64);
+    background-color: #E63946;
     border-radius: 20px;
     text-align: center;
     margin-top: 10px;
@@ -114,6 +137,8 @@ body{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .game-card {
@@ -123,6 +148,8 @@ body{
     width: 30%;
     box-sizing: border-box;
     transition: transform 0.3s;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.3),  /* права тінь */
+                -5px 0 10px rgba(0,0,0,0.3); /* ліва тінь */
     
 }
 
@@ -141,9 +168,9 @@ body{
  }
 
  footer {
-    background: #0d0d0d;
+    background: #333333;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
-    color: #ffffff;
+    color: #FFF2CC;
  }
