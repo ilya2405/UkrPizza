@@ -1,21 +1,12 @@
-.title{
 
-}
-
-.logo{
-     
-}
-
-.title-text{
-
-}
 
 .nav{
-
+    padding: 10px 20px;
 }
 
 .nav-bar{
     gap: 75px;
+    
 }
 
 .nav-item{
@@ -28,6 +19,3 @@
     text-decoration: none;
 }
 
-.cart-btn{
-    
-}
